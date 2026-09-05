@@ -1,0 +1,153 @@
+/* --- Single post --- */
+/* Título del artículo */
+h1[itemprop="headline"] {
+  font-family: "Bodoni Moda", serif !important;
+  font-weight: 400 !important;
+  letter-spacing: -1px !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center !important;
+}
+
+#dream-single-post-content h2 {
+  font-family: "Bodoni Moda", serif !important;
+  font-weight: 400 !important;
+  letter-spacing: -1px !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header p.text-sm {
+  font-family: "Bodoni Moda", serif !important;
+  font-style: italic;
+  /* margin-top: 0 !important; */
+  margin-bottom: 0 !important;
+}
+
+#dream-single-post-content p {
+  text-align: left !important;
+  font-size: 14px !important;
+  /* line-height: 1.6 !important; */
+  /* color: black; */
+  /* font-family: "Google Sans", sans-serif !important; */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* letter-spacing: -0.5px !important; */
+}
+
+#dream-single-post-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header span.text-sm {
+  font-style: italic;
+  font-size: 14px !important;
+}
+
+/* --- Nav --- */
+/* Título del sitio en la navbar */
+nav a.text-lg {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 400;
+  font-size: 1.5rem; /* ajusta si quieres */
+  letter-spacing: -0.5px;
+  color: black;
+  line-height: 1 !important;
+}
+
+/* Motto debajo del título */
+nav .text-base-content\/60.text-sm {
+  /* font-family: "Bodoni Moda", serif; */
+  font-style: italic;
+  font-size: 0.85rem;
+  /* color: var(--tw-prose-body); */
+  /* letter-spacing: -0.5px; */
+}
+
+/* --- Footer --- */
+footer > div > p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Primera línea: © 2026 El Tintero Seco · Soria */
+footer > div > p:first-child {
+  font-size: 0.85rem;
+  font-weight: 400;
+  font-optical-sizing: auto;
+}
+
+/* Segunda línea: texto editorial */
+footer > div > p:last-child {
+  font-size: 0.8rem;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+/* --- Inicio --- */
+/* HOME: título de cada noticia */
+.dream-grid .card .card-title {
+  font-family: "Bodoni Moda", serif !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+  font-size: 1.35rem; /* ajusta */
+}
+
+/* HOME: fecha */
+.dream-grid .card p.date,
+.card-actions span {
+  font-family: "Bodoni Moda", serif !important;
+  font-style: italic;
+  font-weight: 400;
+  /* font-size: 0.75rem; */
+  /* letter-spacing: 0.5px; */
+}
+
+/* HOME: descripción (extracto) */
+.dream-grid .card .card-body > p:not(.date) {
+  text-align: left;
+  opacity: 0.8;
+  font-size: 0.8rem;
+
+  /* font-family: "Karla", sans-serif !important; */
+  /* font-size: 0.95rem;
+  line-height: 1.55;
+  opacity: 0.85;
+  margin-top: 0.5rem; */
+}
+
+/* --- 404 page title --- */
+.prose h1 {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 400 !important;
+  letter-spacing: -1px !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center !important;
+  margin-bottom: 0 !important;
+}
+
+.prose p {
+  font-weight: 400 !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center !important;
+  font-size: 14px !important;
+}
+
+/* --- General --- */
+/* Evita el “salto” horizontal entre páginas con/sin scrollbar */
+html {
+  scrollbar-gutter: stable;
+}
+
+/* Fallback para navegadores antiguos */
+@supports not (scrollbar-gutter: stable) {
+  html {
+    overflow-y: scroll;
+  }
+}
